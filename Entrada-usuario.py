@@ -14,8 +14,10 @@ n2 = int(input("Digite o 2º número: "))
 # Processamento
 if(input("Quer somar? (n/y)") == "y"):
     R = n1 + n2
+    # Saida
     print(f"O resultado é: {R}")
     exit()
+    
 if(input("Quer subtrair? (n/y)") == "y"):
     R = n1 - n2
     # Saida
